@@ -1,5 +1,5 @@
 {
-  "name": "car_showcase",
+  "name": "lamamia",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,17 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
-    "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest"
+    "typescript": "latest"
   }
 }
