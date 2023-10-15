@@ -1,0 +1,41 @@
+.items {
+    display: flex;
+    gap: 20px;
+}
+
+.item {
+    width: 270px;
+    height: 350px;
+    position: relative;
+    cursor: pointer;
+    border: 4px solid #bbb;
+}
+
+.item:hover .text {
+    color: aquamarine;
+}
+
+.img {
+}
+
+.text {
+    position: absolute;
+    color: #bbb;
+    bottom: 20px;
+    right: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.title {
+    color: #bbb;
+    font-size: 90px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.choose {
+    color: #bbb;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
