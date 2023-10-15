@@ -1,4 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    images: {
+        remotePatterns: [
+            {
+                //TODO
+                protocol: 'https',
+                hostname: 'www.decorilla.com',
+            },
+        ],
+    },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
